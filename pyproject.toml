@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "teste-django"
+version = "0.1.0"
+description = "projeto de teste criado para o athenas"
+authors = ["Luan Esdras Rangel <zluan009@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.7"
+djangorestframework = "^3.15.2"
+psycopg2-binary = "^2.9.10"
+markdown = "^3.7"
+django-filter = "^25.1"
+pydantic = "^2.10.6"
+ruff = "^0.11.2"
+django-cors-headers = "^4.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
